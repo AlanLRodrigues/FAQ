@@ -1,0 +1,56 @@
+body {
+  padding: 40px 4%;
+  box-shadow: 0 0 8px black;
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+
+}
+
+.seta {
+  display: inline-block;
+  transition: transform 0.5s ease; /* Transição suave */
+  float: right;
+  cursor: pointer;
+}
+
+.rotacionar {
+  transform: rotate(180deg); /* Rotaciona a seta para cima */
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+  margin: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.perguntas{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  
+}
+
+img {
+  float: left;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.resposta {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  
+}
